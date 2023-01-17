@@ -1,0 +1,37 @@
+.button {
+    color: var(--color-primary100);
+    border: none;
+    background: var(--background-one);
+    border-radius: 8px;
+    width: 288px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color .3s;
+    font-family: var(--font-Inter);
+} 
+
+.button:hover {
+    transition: color .3s;
+    cursor: pointer;
+    color: var(--color-primary80);
+} 
+
+.button:active {
+    color: var(--color-white);
+}
+
+.disabled {
+    color: var(--color-primary100);
+    border: none;
+    background: var(--background-one);
+    border-radius: 8px;
+    width: 288px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color .3s;
+    font-family: var(--font-Inter);
+    opacity: .4;
+    cursor: no-drop;
+}

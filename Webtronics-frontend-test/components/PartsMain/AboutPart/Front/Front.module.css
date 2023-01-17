@@ -1,0 +1,17 @@
+.container {
+    margin-top: 100px;
+}
+
+.text {
+    color: var(--color-white);
+    font-family: var(--font-Inter);
+    width: 468px;
+    line-height: 140%;
+    margin-left: 10px;
+}
+
+.container img:nth-child(4) {
+    width: 100%;
+    margin-top: 82px;
+    margin-left: 100px;
+}

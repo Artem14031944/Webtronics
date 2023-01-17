@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.title {
+    font-family: var(--font-ClashDisplay);
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 24px;
+}

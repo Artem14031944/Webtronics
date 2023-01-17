@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    color: var(--color-white);
+}
+
+.title {
+    font-family: var(--font-ClashDisplay);
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 120%;
+    height: 150px;
+    margin-right: 57px;
+}
+
+.text {
+    font-family: var(--font-Inter);
+    width: 100%;
+    max-width: 359px;
+    height: 66px;
+}

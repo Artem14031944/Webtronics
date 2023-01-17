@@ -1,5 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/clash-display');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,10 +19,12 @@
   --color-blue: #A2CBFB;
   --color-blue-dark: #0C102D;
   
+  
   /* Background */
   --background-one: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
   --background-two: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
-  
+  --background-three: linear-gradient(180deg, rgba(12, 16, 45, 0) -4.71%, #0C102D 97.38%); 
+
 
   /* Fonts */
   --font-ClashDisplay: 'Clash Display', sans-serif;

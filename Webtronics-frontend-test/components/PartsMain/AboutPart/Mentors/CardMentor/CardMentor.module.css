@@ -1,0 +1,39 @@
+.card {
+    width: 184px;
+}
+
+.cardTop {
+    width: 184px;
+    margin-top: -55px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img img {
+    display: inline-block;
+    background: var(--background-two);
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+
+.info {
+    margin-top: 16px;
+    color: var(--color-white);
+    width: 185px;
+}
+
+.name {
+    font-family: var(--font-ClashDisplay);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 5px;
+}
+
+.about {
+    font-family: var(--font-Inter);
+    font-size: 14px;
+    line-height: 140%;
+}

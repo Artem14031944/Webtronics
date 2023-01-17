@@ -13,8 +13,8 @@ const Front: FC = () => {
             width={11}
             height={13}
             alt="ray"
-            top={460}
-            left={980}
+            top={540}
+            left={1050}
             right={0}
             bottom={0}
           />

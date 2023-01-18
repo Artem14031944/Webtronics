@@ -1,0 +1,76 @@
+.point {
+    display: flex;
+    align-items: center;
+}
+
+.stepLeft {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.stepRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+}
+
+.outBorderLeft {
+    background-image: url('../../../../../public/border_left.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    width: 505px;
+    padding: 15px;
+    margin-top: -80px;
+}
+
+.outBorderRight {
+    background-image: url('../../../../../public/border_right.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    padding: 15px;
+    width: 505px;
+}
+
+.inBorder {
+    background-image: url('../../../../../public/border_step.svg');
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 193px;   
+}
+
+.content {
+    padding: 24px;
+    color: var(--color-white);
+}
+
+.step {
+    font-family: var(--font-ClashDisplay);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}   
+
+.title {
+    font-family: var(--font-ClashDisplay);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+.text{
+    color: var( --color-blue);
+    font-family: var(--font-Inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}

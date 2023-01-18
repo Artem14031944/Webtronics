@@ -1,0 +1,14 @@
+.line {
+    position: absolute;
+    background: var(--background-one);
+    width: 4px;
+    height: 877px;
+    top: 100px;
+    left: 600px;
+}
+
+.line img {
+    position: absolute;
+    right: -9px;
+    top: -2px;
+}

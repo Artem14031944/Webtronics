@@ -1,4 +1,5 @@
 .wrapper {
     background: var(--color-blue-dark);
+    z-index: 50;
     overflow: hidden;
 }

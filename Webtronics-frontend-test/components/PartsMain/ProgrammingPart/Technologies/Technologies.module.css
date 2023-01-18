@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    max-width: var(--width-min-cocontainer);
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+    /* flex-wrap: wrap; */
+}

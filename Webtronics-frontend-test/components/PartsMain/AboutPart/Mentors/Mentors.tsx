@@ -1,13 +1,13 @@
 import { FC } from 'react';
 import Image from 'next/image';
 import CardMentor from './CardMentor/CardMentor';
+import OnContainerImg from '../../../OnContainerImg/OnContainerImg';
 import icon_line from '../../../../public/line.svg';
 import img_man_one from '../../../../public/Man_1.svg';
 import img_man_two from '../../../../public/Man_2.svg';
 import img_woman from '../../../../public/Woman_1.svg';
 import icon_star from '../../../../public/Star_1.svg'
 import style from './Mentors.module.css';
-import OnContainerImg from '../../../OnContainerImg/OnContainerImg';
 
 interface Imentors {
   title?: string

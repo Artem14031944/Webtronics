@@ -2,4 +2,5 @@
     width: 100%;
     max-width: var(--width-container);
     margin: 0 auto;
+    position: relative;
 }

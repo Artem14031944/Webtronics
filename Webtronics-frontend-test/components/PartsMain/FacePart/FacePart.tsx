@@ -1,4 +1,5 @@
 import React from 'react'; 
+import Wrapper from '../../Wrapper/Wrapper';
 import Container from '../../Container/Container';
 import img_ray from '../../../public/point_1.png';
 import OnContainerImg from '../../OnContainerImg/OnContainerImg';
@@ -14,14 +15,14 @@ const FacePart = () => {
   ];
 
   return (
-    <div className={style.wrapper}>
+    <Wrapper wrapperStyle={style.wrapper}>
       <Container containerStyle={style.container}>
         {rays?.map((ray) => <OnContainerImg key={ray.id} props={ray}/>)}
         <TitleOne/>
         <TitleTwo/>
       </Container>
       <div className={style.blur}/>
-    </div>
+    </Wrapper>
   )
 };
 

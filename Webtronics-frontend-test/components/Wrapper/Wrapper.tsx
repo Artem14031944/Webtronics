@@ -2,7 +2,6 @@ import { FC, ReactChild, ReactFragment , ReactPortal } from 'react';
 import style from './Wrapper.module.css';
 
 interface Iwrapper {
-    // children: JSX.Element | JSX.Element[];
     children : ReactChild | ReactFragment | ReactPortal;
     wrapperStyle?: string;
   };
@@ -10,9 +9,9 @@ interface Iwrapper {
 const Wrapper: FC<Iwrapper> = ({ children, wrapperStyle }) => {
   return (
     <div className={`${style.wrapper} ${wrapperStyle}`}>
-        {children}
+      {children}
     </div>
   )
-}
+};
 
-export default Wrapper
+export default Wrapper;

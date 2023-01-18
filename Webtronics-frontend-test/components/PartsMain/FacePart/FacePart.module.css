@@ -1,12 +1,9 @@
 .wrapper {
     height: 700px;
-    background: 
-        url('../../../public/facePart.png'), 
-        var(--color-blue-dark);
+    background-image: url('../../../public/facePart.png');
     background-size: 1920px;
     background-position: top;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .container {

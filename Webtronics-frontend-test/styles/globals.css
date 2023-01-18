@@ -24,6 +24,7 @@
   --background-one: linear-gradient(180deg, #1FF2FF 0%, #27F9E5 52.66%, #2FFFCD 100%);
   --background-two: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
   --background-three: linear-gradient(180deg, rgba(12, 16, 45, 0) -4.71%, #0C102D 97.38%); 
+  --background-gray: rgba(255, 255, 255, 0.05);
 
 
   /* Fonts */
@@ -33,4 +34,5 @@
   
   /* Width */
   --width-container: 1200px;
+  --width-min-cocontainer: 800px;
 }

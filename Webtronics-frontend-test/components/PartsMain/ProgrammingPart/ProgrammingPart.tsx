@@ -3,6 +3,7 @@ import Wrapper from '../../Wrapper/Wrapper';
 import Container from './../../Container/Container';
 import Title from '../../Title/Title';
 import OnContainerImg from '../../OnContainerImg/OnContainerImg';
+import Technologies from './Technologies/Technologies';
 import img_ray from '../../../public/point_1.png';
 import icon_star from '../../../public/Star_1.svg';
 import style from './ProgrammingPart.module.css';
@@ -15,15 +16,16 @@ const ProgrammingPart = () => {
   ];
 
   return (
-    <Wrapper>
-        <Container>
-            {images.map((image) => <OnContainerImg key={image.id} props={image}/>)}
-            <Title titleStyle={style.title} title={'Programming technologies'}/>
-            <p className={style.text}>
-                By the end, you’ll have the portfolio and interview 
-                skills you need to start your new career.
-            </p>
-        </Container>
+    <Wrapper wrapperStyle={style.wrapper}>
+      <Container>
+        {images.map((image) => <OnContainerImg key={image.id} props={image}/>)}
+        <Title titleStyle={style.title} title={'Programming technologies'}/>
+        <p className={style.text}>
+          By the end, you’ll have the portfolio and interview 
+          skills you need to start your new career.
+        </p>
+        <Technologies/>
+      </Container>
     </Wrapper>
   )
 };

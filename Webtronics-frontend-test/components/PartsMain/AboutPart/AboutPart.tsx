@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import Wrapper from '../../Wrapper/Wrapper';
 import Container from '../../Container/Container';
 import OnContainerImg from '../../OnContainerImg/OnContainerImg';
 import Title from '../../Title/Title';
@@ -18,7 +19,7 @@ const AboutPart: FC = () => {
   ];
 
   return (
-    <div className={style.wrapper}>
+    <Wrapper wrapperStyle={style.wrapper}>
       <Container>
         {images?.map((image) => <OnContainerImg key={image.id} props={image}/>)}
         <Title title={'About Us'}/>
@@ -27,7 +28,7 @@ const AboutPart: FC = () => {
           <Front/>
         </div>
       </Container>
-    </div>
+    </Wrapper>
   )
 };
 

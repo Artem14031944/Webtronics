@@ -21,7 +21,7 @@ const Mentors: FC<Imentors> = ({ title }) => {
     {id: 3, img: img_man_one.src, name: 'Robert Fox', about: 'Front-end engineers work closely with designers'},
   ];
 
-  const stars = [
+  const images = [
     {id: 1, image: icon_star?.src, width: 19, height: 22, alt:'star', top: 400, left: 150, right: 0, bottom: 0},
   ];
 
@@ -35,7 +35,7 @@ const Mentors: FC<Imentors> = ({ title }) => {
         width={395}
         height={156}
       />
-      {stars.map((star) => <OnContainerImg key={star.id} props={star}/>)}
+      {images.map((image) => <OnContainerImg key={image.id} props={image}/>)}
       <div className={style.mentors}>
         {mentors?.map((mentor) => (
           <CardMentor 

@@ -1,0 +1,4 @@
+.wrapper {
+    background: var(--color-blue-dark);
+    overflow: hidden;
+}

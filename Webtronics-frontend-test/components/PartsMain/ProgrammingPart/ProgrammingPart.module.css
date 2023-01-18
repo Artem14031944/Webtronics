@@ -1,0 +1,14 @@
+.title {
+    width: 543px;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.text {
+    text-align: center;
+    color: var(--color-white);
+    font-family: var(--font-Inter);
+    margin-top: 26px;
+    width: 432px;
+    margin: 0 auto;
+}

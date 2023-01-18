@@ -7,13 +7,13 @@ import style from './Front.module.css';
 
 const Front: FC = () => {
 
-  const stars = [
+  const images = [
     {id: 1, image: icon_star?.src, width: 11, height: 13, alt:'star', top: 540, left: 990, right: 0, bottom: 0},
   ];
 
   return (
     <div className={style.container}>
-      {stars?.map((star) => <OnContainerImg key={star.id} props={star}/>)}
+      {images?.map((image) => <OnContainerImg key={image.id} props={image}/>)}
       <p className={style.text}>
         Front-end engineers work closely with designers to make websites beautiful, 
         functional, and fast. This Career Path will teach you not only the necessary 

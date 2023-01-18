@@ -1,7 +1,9 @@
 .wrapper {
     background: var(--color-blue-dark);
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
+    height: 800px;
+    z-index: 50;
 } 
 
 .content {

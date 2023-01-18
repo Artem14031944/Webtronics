@@ -29,4 +29,8 @@
   /* Fonts */
   --font-ClashDisplay: 'Clash Display', sans-serif;
   --font-Inter: 'Inter', sans-serif;
+
+  
+  /* Width */
+  --width-container: 1200px;
 }

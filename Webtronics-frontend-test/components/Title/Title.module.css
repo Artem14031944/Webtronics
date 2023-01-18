@@ -1,0 +1,9 @@
+.title {
+    font-family: var(--font-ClashDisplay);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    color: var(--color-white);
+    text-align: center;
+}

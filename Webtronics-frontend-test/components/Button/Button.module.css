@@ -9,6 +9,7 @@
     font-weight: 500;
     transition: color .3s;
     font-family: var(--font-Inter);
+    z-index: 10;
 } 
 
 .button:hover {

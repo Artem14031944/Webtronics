@@ -1,26 +1,10 @@
 .wrapper {
     background: var(--color-blue-dark);
     position: relative;
+    overflow-x: hidden;
 } 
-
-.container {
-   width: 100%;
-   max-width: 1200px;
-   margin: 0 auto;
-}
-
-.title {
-    font-family: var(--font-ClashDisplay);
-    font-weight: 600;
-    font-style: normal;
-    font-size: 72px;
-    color: var(--color-white);
-    line-height: 120%;
-    text-align: center;
-    margin-bottom: 54px;
-}
 
 .content {
     display: flex; 
+    margin-top: 56px;
 }
-

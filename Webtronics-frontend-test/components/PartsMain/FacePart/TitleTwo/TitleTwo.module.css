@@ -11,3 +11,14 @@
     line-height: 120%;
     margin-left: 24px;
 }
+
+.text {
+    color: var(--color-white);
+    font-family: var(--font-ClashDisplay);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: right;
+    margin-right: 25px;
+    padding-bottom: 128px;
+}

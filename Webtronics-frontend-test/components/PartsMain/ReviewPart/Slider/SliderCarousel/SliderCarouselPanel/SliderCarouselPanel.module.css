@@ -1,0 +1,36 @@
+.slider {
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.current {
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button:active {
+    outline: none;
+} 
+
+.button:first-child {
+    margin-right: 12px;
+}
+
+.button:last-child {
+    margin-left: 12px;
+}

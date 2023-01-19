@@ -8,17 +8,17 @@ import style from './AskedPart.module.css';
 
 const AskedPart = () => {
   return (
-    <Wrapper>
-        <Container>
-            <Title 
-                title={'Frequently Asked Questions'} 
-                titleStyle={style.title}
-            />
-            <div className={style.content}>
-                <Question/>
-                <QuestionAccordion/>
-            </div>
-        </Container>
+    <Wrapper wrapperStyle={style.wrapper}>
+      <Container>
+        <Title 
+          title={'Frequently Asked Questions'} 
+          titleStyle={style.title}
+        />
+        <div className={style.content}>
+          <Question/>
+          <QuestionAccordion/>
+        </div>
+      </Container>
     </Wrapper>
   )
 };

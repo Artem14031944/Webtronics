@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-image: url('../../../../../../public/borderBigSlider.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background-image: url('../../../../../../public/borderSmallSlider.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_small img {
+    width: 100%;
+}
+
+
+

@@ -1,7 +1,13 @@
-import { SLIDER_VALUE, ProjectActionTypes, StoreState } from '../types/types';
+import { 
+    SLIDER_VALUE, 
+    SLIDER_DATA,
+    ProjectActionTypes, 
+    StoreState
+} from '../types/types';
 
 const initialState: StoreState  = {
     sliderValue: 1,
+    sliderData: [],
 };
 
 const sliderReducer = (state = initialState, action: ProjectActionTypes) : StoreState => {
@@ -10,6 +16,11 @@ const sliderReducer = (state = initialState, action: ProjectActionTypes) : Store
             return {
                 ...state,
                 sliderValue: action.sliderValue
+            };
+        case SLIDER_DATA:
+            return {
+                ...state,
+                sliderData: action.sliderData
             };
         default:
             return state;

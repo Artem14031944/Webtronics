@@ -1,5 +1,5 @@
 .slider {
-
+    margin-bottom: 16px;
 }
 
 .header {
@@ -9,7 +9,18 @@
 }
 
 .current {
+    font-size: 24px;
+    color: var(--color-white);
+    font-family: var(--font-ClashDisplay);
+    display: flex;
+    align-items: flex-start;
+}
 
+.current sup {
+    padding-top: 1px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: var(--font-Inter);
 }
 
 .buttons {

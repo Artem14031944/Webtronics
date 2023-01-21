@@ -7,7 +7,7 @@ import style from './ReviewPart.module.css';
 
 const ReviewPart: FC = () => {
   return (
-    <Wrapper>
+    <Wrapper wrapperStyle={style.wrapper}>
       <Container>
         <Title  title='Review' titleStyle={style.title}/>
         <Slider/>

@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.wrapper}>
         <Header/>
         <Main/>
-        {/* <Footer/> */}
+        <Footer/>
       </main>
     </>
   )

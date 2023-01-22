@@ -1,0 +1,23 @@
+.container {
+    color: var(--color-white);
+}
+
+.title {
+    font-family: var(--font-ClashDisplay);
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 24px;
+}
+
+.container img {
+    margin: 0 12.5px;
+    cursor: pointer;
+}
+
+.container img:first-child {
+    margin-left: 0;
+}
+
+.container img:last-child {
+    margin-right: 0;
+}

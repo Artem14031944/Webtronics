@@ -3,15 +3,15 @@ import style from './Link.module.css';
 
 
 export interface Ilink {
-    id?: number,
-    text: string,
-    path: string
+  id?: number,
+  text: string,
+  path: string
 }
 
 const Link: FC<Ilink> = ({text, path }) => {
   return (
     <div className={style.link}>
-        {text}
+      {text}
     </div>
   )
 };

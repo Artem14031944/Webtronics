@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-bottom: 139px;
+}
+
+.bigPhoto {
+    margin-right: 16px;
+}
+
+.smallPhoto {
+    display: flex;
+    height: 434px;
+    justify-content: space-between;
+    flex-direction: column;
+}

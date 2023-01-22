@@ -2,5 +2,12 @@
     font-family: var(--font-Inter);
     margin-left: 48px;
     color: var(--color-white);
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.link:hover {
+    opacity: .8;
+    transition: opacity .3s;
     cursor: pointer;
 }

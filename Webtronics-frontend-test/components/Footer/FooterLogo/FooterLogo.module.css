@@ -1,0 +1,10 @@
+.container {
+    margin-right: 193px;
+}
+
+.text {
+    margin-top: 33px;
+    line-height: 19px;
+    color: var(--color-white);
+    font-family: var(--font-Inter);
+}

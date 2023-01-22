@@ -14,7 +14,7 @@ const SliderPhoto: FC = () => {
       {sliderData
       ?.filter((item: IitemSliderData) => item.id === sliderValue)
       ?.map((item: IitemSliderData) => (
-        <div className={style.img_big}>
+        <div className={style.img_big} key={item.id}>
           <Image 
             src={item.imgBig}
             alt={'person'}
@@ -26,7 +26,7 @@ const SliderPhoto: FC = () => {
       {sliderData
       ?.filter((item: IitemSliderData) => item.id !== sliderValue)
       ?.map((item: IitemSliderData) => (
-        <div className={style.img_small}>
+        <div className={style.img_small} key={item.id}>
           <Image 
             src={item.imgSmall}
             alt={'person'}

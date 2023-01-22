@@ -1,0 +1,12 @@
+.container {
+  
+}
+
+.text {
+    width: 868px;
+    height: 88px;
+    font-family: var(--font-Inter);
+    line-height: 140%;
+    color: var(--color-white);
+    margin-top: 139px;
+}

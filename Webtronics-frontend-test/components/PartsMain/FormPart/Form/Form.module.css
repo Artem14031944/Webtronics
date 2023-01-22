@@ -1,0 +1,77 @@
+.form {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputDisbled {
+    margin-top: 24px;
+    width: 497px;
+    height: 72px;
+    border-radius: 8px;
+    color: var(--color-gray);
+    padding-left: 24px;
+    border: 1px solid var(--color-gray);
+    background: var(--color-blue-black);
+    font-family: var(--font-Inter);
+}
+
+.inputError {
+    margin-top: 24px;
+    width: 497px;
+    height: 72px;
+    border-radius: 8px;
+    color: var(--color-white);
+    padding-left: 24px;
+    border: 1px solid var(--color-red);
+    background: var(--color-red-dark);
+    font-family: var(--font-Inter);
+}
+
+.input {
+    margin-top: 24px;
+    width: 497px;
+    height: 72px;
+    border-radius: 8px;
+    color: var(--color-blue);
+    padding-left: 24px;
+    border: 1px solid var(--color-blue-white);
+    background: var(--background-blue);
+    font-family: var(--font-Inter);
+}
+
+.input::placeholder {
+    color: var(--color-blue);
+}
+
+.inputError::placeholder  {
+    color: var(--color-white);
+}
+
+.input:active {
+    color: var(--color-white);
+}
+
+.inputError:active,
+.inputError:focus,
+.input:active,
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    width: 497px;
+    height: 72px;
+    margin-top: 24px;
+    margin-bottom: 56px;
+}
+
+.error {
+    color: var(--color-red);
+    text-align: left;
+    margin: 10px 0;
+    font-family: var(--font-Inter);
+}
+

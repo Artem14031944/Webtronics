@@ -1,0 +1,32 @@
+.container {
+    color: var(--color-white);
+    margin-right: 20px;
+}
+
+.title {
+    font-family: var(--font-ClashDisplay);
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 24px;
+}
+
+.list {
+    font-family: var(--font-Inter);
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    gap: 16px 25px
+}
+
+.list_item {
+    font-size: 14px;
+    line-height: 17px;
+    list-style-type: none;
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.list_item:hover {
+    cursor: pointer;
+    opacity: .8;
+    transition: opacity .3s;
+}

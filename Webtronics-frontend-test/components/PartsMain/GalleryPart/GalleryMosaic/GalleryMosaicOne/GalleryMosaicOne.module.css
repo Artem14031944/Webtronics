@@ -1,0 +1,13 @@
+.container {
+    margin-top: 48px;
+    margin-right: 24px;
+}
+
+.text {
+    font-family: var(--font-Inter);
+    line-height: 140%;
+    color: var(--color-white);
+    width: 288px;
+    height: 110px;
+    margin-bottom: 84px;
+}

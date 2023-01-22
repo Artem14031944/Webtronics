@@ -12,12 +12,16 @@
 
   /* Colors */
   --color-white: #ffffff;
+  --color-black: #000000;
   --color-red: #FD4646;
+  --color-red-dark: #3D2E45;
   --color-gray: #636363;
   --color-primary80: #3B48D0;
   --color-primary100: #0A1482;
   --color-blue: #A2CBFB;
   --color-blue-dark: #0C102D;
+  --color-blue-black: #181C38;
+  --color-blue-white: #1D5289;
   
   
   /* Background */
@@ -25,6 +29,9 @@
   --background-two: linear-gradient(152.14deg, rgba(21, 191, 253, 0.7) 9.96%, rgba(156, 55, 253, 0.7) 100%);
   --background-three: linear-gradient(180deg, rgba(12, 16, 45, 0) -4.71%, #0C102D 97.38%); 
   --background-gray: rgba(255, 255, 255, 0.05);
+  --background-blue: #242842;
+  --background-modal: rgba( 0, 0, 0, .4);
+
 
 
   /* Fonts */
@@ -35,4 +42,13 @@
   /* Width */
   --width-container: 1200px;
   --width-min-cocontainer: 800px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  border: 1px solid var(--color-blue-white);
+  -webkit-text-fill-color: var(--color-blue);
+  -webkit-box-shadow: 0 0 0px 1000px var(--background-blue) inset;
+  transition: background-color 5000s ease-in-out 0s;
 }

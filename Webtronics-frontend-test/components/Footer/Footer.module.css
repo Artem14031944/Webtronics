@@ -1,3 +1,11 @@
 .footer {
-    
+    height: 195px;
+    border-top: 1px solid var(--color-blue-white);
+    background: var(--color-blue-black);
 }
+
+.container {
+    margin-top: 33px;
+    display: flex;
+}
+

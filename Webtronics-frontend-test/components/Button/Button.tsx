@@ -5,7 +5,7 @@ import style from './Button.module.css';
 interface Ibutton {
     type: 'button' | 'submit';
     text: string;
-    onClick: () => void;
+    onClick?: () => void;
     btnStyle?: string;
     disabled?: boolean;
 };

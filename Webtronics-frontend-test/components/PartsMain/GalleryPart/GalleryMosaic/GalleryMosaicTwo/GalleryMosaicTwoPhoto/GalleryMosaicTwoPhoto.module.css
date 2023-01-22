@@ -17,3 +17,13 @@
     justify-content: space-between;
     flex-direction: column;
 }
+
+@media(max-width: 950px) {
+    .container {
+       flex-wrap: wrap;
+    }
+
+    .smallPhoto {
+        margin-top: 20px;
+    }
+}

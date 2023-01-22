@@ -22,7 +22,6 @@ const GalleryMosaicTwoPhoto: FC = () => {
           alt={'developer'}
           width={288}
           height={209}
-
         />
         <Image
           src={icon_divece}

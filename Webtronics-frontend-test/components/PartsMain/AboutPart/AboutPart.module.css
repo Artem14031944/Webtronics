@@ -7,3 +7,15 @@
     display: flex; 
     margin-top: 56px;
 }
+
+
+@media(max-width: 1100px) {
+    .wrapper {
+        height: 850px;
+    } 
+
+    .content {
+        flex-wrap: wrap;
+    }
+
+}

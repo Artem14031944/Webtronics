@@ -3,3 +3,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media(max-width: 1250px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}

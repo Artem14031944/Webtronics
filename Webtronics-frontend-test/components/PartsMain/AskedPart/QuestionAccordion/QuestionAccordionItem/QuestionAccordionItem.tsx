@@ -13,6 +13,7 @@ interface Iprops {
 }
 
 const QuestionAccordionItem: FC<Iprops> = ({ props }) => {
+    
   const [active, setActive] = useState(false);
 
   useEffect(() => {
@@ -23,18 +24,23 @@ const QuestionAccordionItem: FC<Iprops> = ({ props }) => {
     }
   }, []);
 
+  const handlerAccordion = () => setActive(!active);
+
   return (
-    <div className={active ? style.containerActive : style.containerNotActive}>
-        <div className={style.header}>
-            <h3 className={style.title}>{props.question}</h3> 
-            <Image 
-                src={active ? icon_minus : icon_plus} 
-                alt="icon" 
-                width={18} 
-                height={18}
-                onClick={() => setActive(prev => !prev)}
-            />
-        </div>
+    <div
+      className={active ? style.containerActive : style.containerNotActive}
+      onClick={handlerAccordion} 
+    >
+      <div className={style.header}>
+        <h3 className={style.title}>{props.question}</h3> 
+        <Image 
+          src={active ? icon_minus : icon_plus} 
+          alt="icon" 
+          width={18} 
+          height={18}
+          onClick={handlerAccordion}
+        />
+      </div>
         {active && <p className={style.text}>{props.answer}</p>}
     </div>
   )

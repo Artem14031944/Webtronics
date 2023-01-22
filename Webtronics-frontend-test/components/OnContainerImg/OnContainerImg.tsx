@@ -18,22 +18,22 @@ export interface Iprops {
 }
 
 
-const OnContainerImg: FC<Iprops> = ({ props}) => (
+const OnContainerImg: FC<Iprops> = ({ props }) => (
     <div 
-        className={style.container}  
-        style={{
-            top: props?.top, 
-            left: props?.left, 
-            right: props?.right, 
-            bottom: props?.bottom
-        }}
+      className={style.container}  
+      style={{
+        top: props?.top, 
+        left: props?.left, 
+        right: props?.right, 
+        bottom: props?.bottom
+      }}
     >
-        <Image 
-            src={props?.image}
-            width={props?.width}
-            height={props?.height}
-            alt={props?.alt}
-        />
+      <Image 
+        src={props?.image}
+        width={props?.width}
+        height={props?.height}
+        alt={props?.alt}
+     />
     </div>
 ); 
 

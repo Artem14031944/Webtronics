@@ -8,7 +8,8 @@
 
 .inputDisbled {
     margin-top: 24px;
-    width: 497px;
+    width: 100%;
+    max-width: 497px;
     height: 72px;
     border-radius: 8px;
     color: var(--color-gray);
@@ -20,7 +21,8 @@
 
 .inputError {
     margin-top: 24px;
-    width: 497px;
+    width: 100%;
+    max-width: 497px;
     height: 72px;
     border-radius: 8px;
     color: var(--color-white);
@@ -32,7 +34,8 @@
 
 .input {
     margin-top: 24px;
-    width: 497px;
+    width: 100%;
+    max-width: 497px;
     height: 72px;
     border-radius: 8px;
     color: var(--color-blue);
@@ -62,7 +65,7 @@
 }
 
 .btn {
-    width: 497px;
+    max-width: 497px;
     height: 72px;
     margin-top: 24px;
     margin-bottom: 56px;

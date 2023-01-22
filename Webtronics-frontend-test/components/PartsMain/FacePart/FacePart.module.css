@@ -11,7 +11,7 @@
 }
 
 .blur {
-    background: var(--background-three);
+    background: var(--background-gray-dark);
     backdrop-filter: blur(1px); 
     height: 40px;
     width: 100%;

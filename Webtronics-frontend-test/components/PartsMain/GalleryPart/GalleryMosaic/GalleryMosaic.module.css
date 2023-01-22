@@ -2,4 +2,12 @@
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
+    z-index: 100;
+    position: relative;
+}
+
+@media(max-width: 1250px) {
+    .container {
+        flex-wrap: wrap-reverse;
+    }
 }

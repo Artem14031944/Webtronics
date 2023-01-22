@@ -8,3 +8,9 @@
     color: var(--color-white);
     font-family: var(--font-Inter);
 }
+
+@media(max-width: 900px) {
+    .container {
+        margin-right: 70px;
+    }
+}

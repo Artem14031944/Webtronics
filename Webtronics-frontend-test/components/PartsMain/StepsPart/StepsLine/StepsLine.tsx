@@ -1,9 +1,9 @@
-import React from 'react';
+import { FC } from 'react';
 import Line from './Line/Line';
 import Step from './Step/Step';
 import style from './StepsLine.module.css';
 
-const StepsLine = () => {
+const StepsLine: FC = () => {
 
   const steps = [
     {id: 1, step: 'Step 1', title: 'Introduction to Front-End ', text: 'Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. '},
@@ -16,10 +16,10 @@ const StepsLine = () => {
 
   return (
     <div className={style.steps}>
-        <Line/>
-        {steps?.map((step) => <Step key={step.id} props={step}/> )}
+      <Line/>
+      {steps?.map((step) => <Step key={step.id} props={step}/>)}
     </div>
   )
 };
 
-export default StepsLine
+export default StepsLine;

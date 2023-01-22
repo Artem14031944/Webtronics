@@ -17,3 +17,9 @@
     font-family: var(--font-Inter);
 }
 
+
+@media(max-width: 1250px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+}

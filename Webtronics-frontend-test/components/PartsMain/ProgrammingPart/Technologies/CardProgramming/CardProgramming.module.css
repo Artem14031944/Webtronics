@@ -35,3 +35,11 @@
     text-align: center;
     margin-top: 16px;
 }
+
+
+@media(max-width: 850px) {
+    .title {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}

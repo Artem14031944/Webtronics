@@ -3,3 +3,9 @@
     color: var(--color-white);
 }
 
+
+@media(max-width: 1050px ) {
+    .text {
+      margin-bottom: 50px;
+    }    
+}

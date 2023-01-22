@@ -16,7 +16,7 @@ const Modal: FC<Imodal> = ({ open, setOpen, title, text }) => {
         onClick={() => setOpen(false)}
     >
         <div 
-            className={style.modal_content} 
+            className={open ? style.modal_content_active : style.modal_content} 
             onClick={(e: SyntheticEvent) => e.stopPropagation()}
         >
             <h3 className={style.title}>{title}</h3>

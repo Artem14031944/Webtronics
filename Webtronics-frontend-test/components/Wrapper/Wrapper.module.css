@@ -2,4 +2,5 @@
     background: var(--color-blue-dark);
     z-index: 50;
     overflow: hidden;
+    position: relative;
 }

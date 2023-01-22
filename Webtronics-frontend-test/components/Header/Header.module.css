@@ -3,5 +3,11 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 37px;
-    z-index: 1;
+    z-index: 102;
+}
+
+@media(max-width: 1220px) {
+    .header {
+        padding: 0 15px;
+    }
 }

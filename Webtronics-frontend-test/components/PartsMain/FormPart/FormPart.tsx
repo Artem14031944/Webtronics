@@ -7,7 +7,7 @@ import style from './FormPart.module.css';
 
 const FormPart: FC = () => {
   return (
-    <Wrapper>
+    <Wrapper wrapperStyle={style.wrapper}>
       <Container containerStyle={style.container}>
         <Title  title='Contact  us' titleStyle={style.title}/>
         <p className={style.text}>Do you have any kind of help please contact with us.</p>

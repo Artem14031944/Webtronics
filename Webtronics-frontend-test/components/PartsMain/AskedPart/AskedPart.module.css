@@ -1,5 +1,8 @@
 .wrapper {
-    height: 900px;
+    height: auto;
+    padding-bottom: 200px;
+    z-index: 100;
+    position: relative;
 }
 
 .title {
@@ -12,4 +15,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 56px;
+}
+
+
+@media(max-width: 1050px ) {
+    .content {
+      flex-wrap: wrap;
+    }    
 }

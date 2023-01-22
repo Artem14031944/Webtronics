@@ -4,6 +4,10 @@
     color: var(--color-white);
 }
 
+.btn {
+    max-width: 288px;
+}
+
 .title {
     font-family: var(--font-ClashDisplay);
     font-size: 150px;
@@ -21,4 +25,26 @@
     text-align: right;
     margin-right: 25px;
     padding-bottom: 128px;
+}
+
+@media(max-width: 1200px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .title {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 900px) {
+    .title{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 820px) {
+    .title{
+        font-size: 120px;
+    }
 }

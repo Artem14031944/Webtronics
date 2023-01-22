@@ -11,7 +11,7 @@
 
 .img img {
     display: inline-block;
-    background: var(--background-two);
+    background: var(--background-blue-purple);
     border: 2px solid transparent;
     border-radius: 50%;
 }

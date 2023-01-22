@@ -3,16 +3,17 @@ import { useDispatch } from 'react-redux';
 import { changeSliderDataAC } from '../../../../../redux/actions/sliderActions';
 import SliderCarouselPanel from './SliderCarouselPanel/SliderCarouselPanel';
 import SliderPhoto from './SliderPhoto/SliderPhoto';
-import img_person_one_big from '../../../../../public/personOneBigSlider.svg';
-import img_person_one_small from '../../../../../public/personOneSmallSlider.svg';
-import img_person_two_big from '../../../../../public/perssonTwoBigSlider.svg';
-import img_person_two_small from '../../../../../public/perssonTwoSmallSlider.svg';
-import img_person_three_big from '../../../../../public/personThreeBigSlider.svg';
-import img_person_three_small from '../../../../../public/perssonThreeSmallSlider.svg';
+import img_person_one_big from '../../../../../public/manOne.png';
+import img_person_one_small from '../../../../../public/menOneSmall.png';
+import img_person_two_big from '../../../../../public/womanOne.png';
+import img_person_two_small from '../../../../../public/womanOneSmall.png';
+import img_person_three_big from '../../../../../public/manTwo.png';
+import img_person_three_small from '../../../../../public/menTwoSmall.png';
 import style from './SliderCarousel.module.css';
 
 
 const SliderCarousel: FC = () => {
+  
   const dispatch = useDispatch();
 
   const sliderData = [

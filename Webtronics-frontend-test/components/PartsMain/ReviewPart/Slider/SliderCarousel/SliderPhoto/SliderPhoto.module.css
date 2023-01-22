@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .img_big {
@@ -9,6 +10,7 @@
     align-items: center;
     justify-content: center;
     padding: 2px;
+    padding-right: 3px;
     background-image: url('../../../../../../public/borderBigSlider.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -28,5 +30,9 @@
     width: 100%;
 }
 
-
+@media(max-width: 1250px) {
+    .container {
+       flex-wrap: wrap;
+    }
+}
 

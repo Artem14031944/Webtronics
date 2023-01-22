@@ -22,10 +22,10 @@ const FooterCompany: FC = () => {
       <ul className={style.list}>
         {list?.map((item: Ilist) => (
         <li 
-            className={style.list_item} 
-            key={item.id}
+          className={style.list_item} 
+          key={item.id}
         >
-            {item.text}
+          {item.text}
         </li>
         ))}
       </ul>

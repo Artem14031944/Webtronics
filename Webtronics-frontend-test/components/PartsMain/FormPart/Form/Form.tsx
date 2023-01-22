@@ -71,7 +71,7 @@ const Form: FC = () => {
             required: true,
             pattern: {
               value: /(?:\+?)[78]+[0-9() -]{16,17}/,
-              message: 'Phone number not correct'
+              message: 'Phone number not correct: +7 (***) ***-**-**'
             }
           })}
           type="text"

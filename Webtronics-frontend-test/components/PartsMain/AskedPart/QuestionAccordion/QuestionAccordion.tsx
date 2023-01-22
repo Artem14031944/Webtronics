@@ -14,10 +14,10 @@ const QuestionAccordion: FC = () => {
   ];
 
   return (
-    <div className={style.blockQuestions}>
+    <div className={style.container}>
       {questions?.map((question) => <QuestionAccordionItem key={question.id} props={question}/>)}
     </div>
   )
-}
+};
 
-export default QuestionAccordion
+export default QuestionAccordion;

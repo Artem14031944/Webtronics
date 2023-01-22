@@ -11,11 +11,11 @@ import style from './AboutPart.module.css';
 const AboutPart: FC = () => {
 
   const images = [
-    {id: 1, image: icon_star?.src, width: 35, height: 40, alt:'star', top: 20, left: 1400, right: 0, bottom: 0},
-    {id: 2, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 20, left: 1000, right: 0, bottom: 0},
-    {id: 3, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 5, left: 770, right: 0, bottom: 0},
-    {id: 4, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 20, left: 400, right: 0, bottom: 0}, 
-    {id: 5, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 700, left: 1120, right: 0, bottom: 0},  
+    {id: 1, image: icon_star?.src, width: 35, height: 40, alt:'star', top: 20, left: 1250, right: 0, bottom: 0},
+    {id: 2, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 20, left: 880, right: 0, bottom: 0},
+    {id: 3, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 5, left: 615, right: 0, bottom: 0},
+    {id: 4, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 50, left: 200, right: 0, bottom: 0}, 
+    {id: 5, image: icon_star?.src, width: 14, height: 17, alt:'star', top: 700, left: 970, right: 0, bottom: 0},  
   ];
 
   return (

@@ -1,9 +1,9 @@
 .wrapper {
-    height: 800px;
+    height: auto;
+    padding-bottom: 200px;
 }
 
 
 .title {
     margin-bottom: 54px;
-   
 }

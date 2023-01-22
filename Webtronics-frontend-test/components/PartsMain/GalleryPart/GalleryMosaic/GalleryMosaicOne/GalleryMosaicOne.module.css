@@ -11,3 +11,22 @@
     height: 110px;
     margin-bottom: 84px;
 }
+
+@media(max-width: 1250px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .text {
+        margin-right: 120px;
+        margin-bottom: 84px;
+    }
+}
+
+@media(max-width: 750px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}

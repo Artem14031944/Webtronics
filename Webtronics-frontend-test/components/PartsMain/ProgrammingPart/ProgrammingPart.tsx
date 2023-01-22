@@ -11,15 +11,15 @@ import style from './ProgrammingPart.module.css';
 const ProgrammingPart = () => {
 
   const images = [ 
-    {id: 1, image: icon_star?.src, width: 35, height: 40, alt:'star', top: 0, left: 1010, right: 0, bottom: 0}, 
-    {id: 2, image: img_ray?.src, width: 350, height: 350, alt:'ray', top: 0, left: 1010, right: 0, bottom: 0}, 
-    {id: 3, image: img_ray?.src, width: 350, height: 350, alt:'ray', top: 200, left: 0, right: 0, bottom: 0}, 
+    {id: 1, image: icon_star?.src, width: 35, height: 40, alt:'star', top: 0, left: 1350, right: 0, bottom: 0}, 
+    {id: 2, image: img_ray?.src, width: 450, height: 450, alt:'ray', top: 0, left: 1110, right: 0, bottom: 0}, 
+    {id: 3, image: img_ray?.src, width: 550, height: 450, alt:'ray', top: 220, left: 100, right: 0, bottom: 0}, 
   ];
 
   return (
     <Wrapper wrapperStyle={style.wrapper}>
+      {images.map((image) => <OnContainerImg key={image.id} props={image}/>)}
       <Container>
-        {images.map((image) => <OnContainerImg key={image.id} props={image}/>)}
         <Title titleStyle={style.title} title={'Programming technologies'}/>
         <p className={style.text}>
           By the end, you’ll have the portfolio and interview 

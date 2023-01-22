@@ -1,6 +1,6 @@
 .line {
     position: absolute;
-    background: var(--background-one);
+    background: var(--background-blue-white);
     width: 4px;
     height: 877px;
     top: 100px;
@@ -11,4 +11,10 @@
     position: absolute;
     right: -9px;
     top: -2px;
+}
+
+@media(max-width: 1210px) {
+    .line {
+        display: none;
+    }
 }

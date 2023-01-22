@@ -1,3 +1,9 @@
 .wrapper {
     height: 1400px;
 }
+
+@media(max-width: 1100px) {
+    .wrapper {
+        height: 1600px;
+    }
+}

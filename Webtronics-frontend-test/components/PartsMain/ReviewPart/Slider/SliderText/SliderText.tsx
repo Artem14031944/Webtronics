@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from  '../../../../../redux/store';
-import { IitemSliderData } from '../../../../../redux/types';
+import { IitemSliderData } from '../../../../../redux/types/types';
 import style from './SliderText.module.css';
 
 

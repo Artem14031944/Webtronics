@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import OnContainerImg from '../../../../OnContainerImg/OnContainerImg';
+import OnContainerImg, { Iprops } from '../../../../OnContainerImg/OnContainerImg';
 import icon_arrow_left from '../../../../../public/lineLeftStep.svg';
 import icon_arrow_right from '../../../../../public/lineRightStep.svg';
 import style from './Line.module.css';
@@ -16,7 +16,7 @@ const Line: FC = () => {
   ];
   return (
     <div className={style.line}>
-        {points?.map((point) => <OnContainerImg key={point.id} props={point}/>)}
+      {points?.map((point) => <OnContainerImg key={point.id} props={point}/>)}
     </div>
   )
 };
